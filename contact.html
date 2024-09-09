@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Reva Wildan Nurdiansyah</title>
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav{
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+      }
+      
+      nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 20px 10px;
+        display: inline-block;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      
+      nav a:hover{
+        background-color: #575757;
+        color: red;
+      }
+      
+      div{
+        border: 2px solid black;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        
+      }
+      
+      label{
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      
+      input[type="email"],
+      textarea{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      
+      input[type="submit"]{
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover{
+        background-color: red;
+      }
+      
+      footer{
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+      }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="cv-wildan.pdf">Download CV</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About me</a>
+    </nav>
+
+    <br>
+    
+    <div>
+        <h1>Contact Me</h1>
+        <form>
+            <label for="email">Email</label><br />
+            <input type="email" name="email" placeholder="Alamat Email"/>
+            <br />
+            <label for="message">Pesan</label><br />
+            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="50"></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Kirim" />
+        </form>
+    </div>
+    
+    <br>
+
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2024 Reva Wildan Nurdiansyah.</p>
+    </footer>
+</body>
+</html>
